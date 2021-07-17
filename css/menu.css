@@ -66,22 +66,3 @@ button:hover{
 nav{
     display: flex;
 }
-
-
-.centro{
-    display: grid;
-    grid-template-columns: auto auto auto auto ;
-    padding: 50px;
-
-}
-
-.imagem_centro img{
-    border: 3px solid black;
-}
-.imagem_centro img:hover{
-    filter: brightness(70%);
-    background: url(img/engrenagens.png);
-}
-.imagem_centro{
-    border: 1px solid black;   
-}
