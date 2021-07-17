@@ -1,0 +1,86 @@
+body{
+    /*max-width: 1000px;*/
+    min-width: 1000px;
+}
+header{
+    background-color: rgb(173, 47, 47);
+    margin-top: -8px;
+}
+
+nav li{
+   display: inline; /*Alinhamento horizontal*/
+}
+nav ul{
+    display: inline; /*Alinhamento horizontal*/
+ }
+
+nav a{
+    text-decoration: none; /*Remove hiperlink*/
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+#menu_itens{
+    width: 100%;
+}
+
+button{
+    background-color: rgb(173, 47, 47);
+    padding: 15px 30px;
+}
+
+button:hover{
+    background-color: rgb(102, 25, 25);
+}
+
+#btn_pesquisa{
+    padding: 15px 15px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#caixa_busca{
+    padding: 15px;
+    padding-top: 21px;
+    padding-bottom: 17px;
+    float: right;    
+}
+
+#logo{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    transform: scaleX(-1); /*Inverte a imagem*/
+    float: left;
+    margin-left: 50px;
+    
+}
+
+#logo:hover{
+    filter: brightness(50%);
+}
+
+#btn_pesquisa{
+    float: right;
+}
+
+nav{
+    display: flex;
+}
+
+
+.centro{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+
+}
+
+.imagem_centro{
+    border: 1px solid black;
+    
+    
+}
