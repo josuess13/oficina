@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Ícones--> 
         <link rel="stylesheet" href="css/centro.css">
         <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/footer.css">
         <link rel="icon" href="img/icon.jpg"> <!-- Ícone na aba do navegador--> 
     </head>
     <body>
@@ -15,16 +16,17 @@
                 <nav class="menu_topo">
                     <a href="#"><img src="img/logo_car.png" id="logo"></a> <!-- Logo do menu-->
                     <ul id="menu_itens">
-                        <li><button><a href="#">Produtos</a></button></li>
-                        <li><button><a href="#">Serviços</a></button></li>
-                        <li><button><a href="#">Vendas</a></button></li>
-                        <li><button><a href="#">Manutenção</a></button></li>
-                        <li><button><a href="#">Clientes</a></button></li>
+                        <li><button><a href="#">Produtos <i class="fa fa-cart-arrow-down"></i></a></button></li>
+                        <li><button><a href="#">Serviços <i class="fa fa-wrench"></i></a></button></li>
+                        <li><button><a href="#">Vendas <i class="fa fa-usd"></i></a></button></li>
+                        <li><button><a href="#">Manutenção <i class="fa fa-car"></i></a></button></li>
+                        <li><button><a href="#">Clientes <i class="fa fa-address-book"></i></a></button></li>
+                        <li><button><a href="#">Funcionários <i class="fa fa-black-tie"></i></a></button></li>
                         <!-- Pesquisa--> 
-                        <li>
+                        <!-- <li>
                             <button id="btn_pesquisa"><a href="#"><i class="fa fa-search"></i></a></button>
                             <input type="text" id="caixa_busca">
-                        </li>
+                        </li>-->
                     </ul>
                 </nav>
             </div>
@@ -39,11 +41,14 @@
                 </div>
             </div>
             <div class="clientes" style="border: 1px solid black;">
-                <div class="os_andamento">
+                <div class="status_cliente">
                     <p>Status dos Clientes</p>
                 </div>
             </div>
             
         </div>
+        <footer>
+            <p>Produtos com estoque baixo: <span>10</span> | Clientes com Débitos Vencidos: <span>2</span> | Manutenções atrasadas: <span>2</span>/</p>
+        </footer>
     </body>
 </html>
