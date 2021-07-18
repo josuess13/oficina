@@ -1,7 +1,19 @@
+.form1{grid-area: menu;}
+.form2{grid-area: left;}
+.form3{grid-area: right;}
+
 .produtos{
+    display: grid;
+    grid-template-areas: 'menu right'
+    'left right'
+    ;
+    
+    
     border: 1px solid black;
     margin-top: 10px;
 }
+
+
 .cadastro_produtos{
     border: 1px solid red;
     margin-top: 10px;
@@ -15,5 +27,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #4682B4;
     color: azure;
-    margin-top: -20px;
+    margin-top: -14px;
+}
+.pesquisa{
+    background-color: dimgray;
 }
