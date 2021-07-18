@@ -26,7 +26,11 @@ button{
 }
 
 button:hover{
-    background-color: rgb(102, 25, 25);
+    background-color: rgb(68, 17, 17);
+}
+
+.btn_vendas:hover{
+    background-color: rgb(20, 109, 47);
 }
 
 #btn_pesquisa{
