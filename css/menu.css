@@ -56,6 +56,7 @@ button:hover{
     transform: scaleX(-1); /*Inverte a imagem*/
     float: left;
     margin-left: 50px;
+    filter: grayscale(50%);
     
 }
 
