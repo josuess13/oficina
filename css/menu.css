@@ -10,10 +10,10 @@ nav ul{
     display: inline; /*Alinhamento horizontal*/
  }
 
-nav a{
+nav a button{
     text-decoration: none; /*Remove hiperlink*/
     color: white;
-    padding: 15px;
+    padding: 15px 30px;
     font-size: 20px;
 }
 #menu_itens{
@@ -56,6 +56,7 @@ button:hover{
     transform: scaleX(-1); /*Inverte a imagem*/
     float: left;
     margin-left: 50px;
+    margin-top: 10px;
     filter: grayscale(50%);
     
 }
