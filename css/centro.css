@@ -1,13 +1,7 @@
 .centro{
     display: grid;
-    grid-template-columns: auto auto auto auto ;
+    grid-template-columns: auto auto auto auto;
     padding: 50px;
-    max-width: 1000px;
-}
-
-.imagem_centro img:hover{
-    /*filter: brightness(70%);*/
-    /*background: url(../img/engrenagens.png);*/
 }
 .imagem_centro{
     /*border: 1px solid black;   */
