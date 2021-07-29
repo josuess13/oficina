@@ -1,9 +1,68 @@
-.form1{grid-area: menu;}
-.form2{grid-area: left;}
+.form1{ /*Formulario de pesquisa*/
+    grid-area: menu;
+    background-color: dimgray;
+    /*Fontes*/
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.pesquisa{ /*Elementos do Formulario de pesquisa*/
+    margin-left: 20px;
+}
+
+.pesquisa_codigo ,.pesquisa_estoque{
+    /*float: right;*/
+    width: 15%;
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 5%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: darkgrey;
+    margin-bottom: 5px;
+}
+.pesquisa_codigo{
+    width: 26%;
+}
+.pesquisa_codigo:focus ,.pesquisa_estoque:focus{
+    background-color: #4682B4;
+    border: 3px solid black;
+}
+
+#opcao_estoque{
+    width: 10%;
+    padding: 10px;
+    border-radius: 5%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: darkgrey;
+    margin-bottom: 5px;
+}
+
+.pesquisa_produto{
+    /*float: right;*/
+    width: 70%;
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 5%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: darkgrey;
+    margin-bottom: 5px;
+}
+.pesquisa_produto:focus{
+    background-color: #4682B4;
+    border: 3px solid black;
+}
+.form2{
+    grid-area: left;
+    background-color: brown;
+}
 .form3{
     grid-area: right;
     border-left: 3px solid black;
     margin-top: -3px;
+    background-color: cornflowerblue;
 }
 .form3 p{
     text-align: center;
@@ -34,7 +93,4 @@
     background-color: #4682B4;
     color: azure;
     margin-top: -14px;
-}
-.pesquisa{
-    background-color: dimgray;
 }

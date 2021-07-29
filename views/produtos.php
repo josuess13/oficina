@@ -14,16 +14,24 @@
                     <p>Produtos Cadastrados</p>
                     <div class="pesquisa">
                         <label for="p_prod_nome"> Produto:</label>
-                        <input type="text" id="p_prod_nome" name="p_prod_name">
+                        <input type="text" id="p_prod_nome" name="p_prod_name" class="pesquisa_produto">
                         <br>
-                        <label for="p_prod_codigo"> Código:</label>
-                        <input type="text" id="p_prod_codigo" name="p_prod_cod">
-                        <br>
+                        <label for="p_prod_codigo"> Código:&nbsp;&nbsp;</label>
+                        <input type="text" id="p_prod_codigo" name="p_prod_cod" class="pesquisa_codigo">
+                        <br>                       
                         <label for="p_prod_estoque"> Estoque:</label>
-                        <input type="text" id="p_prod_estoque" name="p_prod_qtde">
+                        <form class = "estoque_form">
+                            <select id="opcao_estoque" name="op_estoque">
+                                <option value="igual">=</option>
+                                <option value="maior">>=</option>
+                                <option value="menor"><=</option>
+                            </select>
+                        </form>
+                        <input type="text" id="p_prod_estoque" name="p_prod_qtde" class="pesquisa_estoque">
+                        
+                        <br>
                         <input type="submit" value="Limpar Filtros" id="limpar_filtros">
                         <input type="submit" value="Pesquisar" id="pesquisa_pesquisar">
-                        <br>
                         <input type="submit" value="Novo" id="novo_produto">
                     </div>
                     
