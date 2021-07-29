@@ -6,29 +6,29 @@ if (isset($_GET['i'])) {
     $pagina = addslashes($_GET['i']);
 }
 
-include 'views/menu.html';
-include 'views/footer.html';
+include 'views/menu.php';
+include 'views/footer.php';
 
 switch ($pagina) {
     case 'inicio':
-        include 'views/centro.html';
+        include 'views/centro.php';
         break;
     case 'produtos':
-        include 'views/produtos.html';
+        include 'views/produtos.php';
         break;
     case 'servicos':
-        include 'views/servicos.html';
+        include 'views/servicos.php';
         break;
     case 'vendas':
-        include 'views/vendas.html';
+        include 'views/vendas.php';
         break;
     case 'manutencao':
-        include 'views/manutencao.html';
+        include 'views/manutencao.php';
         break;
     case 'clientes':
-        include 'views/clientes.html';
+        include 'views/clientes.php';
         break;
     default:
-        include 'views/centro.html';
+        include 'views/centro.php';
         break;
 }
