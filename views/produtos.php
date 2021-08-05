@@ -28,13 +28,11 @@
                             </select>
                         </form>
                         <input type="text" id="p_prod_estoque" name="p_prod_qtde" class="pesquisa_estoque">
-                        
-                        <br>
-                        <input type="submit" value="Limpar Filtros" id="limpar_filtros">
-                        <input type="submit" value="Pesquisar" id="pesquisa_pesquisar">
-                        <input type="submit" value="Novo" id="novo_produto">
-                    </div>
-                    
+                        <!-- -->
+                        <input type="submit" value="Pesquisar" id="pesquisa_pesquisar" class="btn_pesquisa_produtos">
+                        <input type="submit" value="Limpar Filtros" id="limpar_filtros" class="btn_pesquisa_produtos">
+                        <input type="submit" value="Novo" id="novo_produto" class="btn_pesquisa_produtos btn_novo">
+                    </div>  
                 </form>
             </div>
             <div class="form2">
