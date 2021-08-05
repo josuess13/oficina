@@ -35,50 +35,59 @@
                     </div>  
                 </form>
             </div>
-            <div class="form2">
-                <p>NOME | PREÇO | ESTOQUE |<span style="color: rgb(27, 104, 204);">Editar</span> | <span style="color: brown;">Excluir</span></p>
-                <form class="Exibir itens" style="border: 1px solid black;">
-                    <p>Aqui serão mostrados os produtos</p>
+            <div class="form2" style="border: 1px solid black;">
+                <form class="Exibir itens">
+                    <table> 
+                        <tr>
+                            <th>NOME</th>
+                            <th>PREÇO</th>
+                            <th>ESTOQUE</th>
+                            <th><span style="color: rgb(72, 130, 206);">Editar</span></th>
+                            <th><span style="color: rgb(206, 62, 62);">Excluir</span></th>
+                        </tr>
+                    </table>
                 </form>
                 <form class="registro_pagina">
-                    <label for="p_prod_nome"> Mostrar</label>
+                    <label for="p_prod_nome">Mostrar</label>
                     <input type="text" id="n_registros_pagina" name="n_registro_page" value="10">
                     <label for="p_prod_nome"> registros por página</label>
                     <input type="submit" value="Confirmar" id="confirmar_registros_pagina">
-                    <input type="submit" value="<" id="Anterior">
-                    <input type="submit" value=">" id="Próximo">
+                    <input type="submit" value="<" id="Anterior" class="btn_navegar">
+                    <input type="submit" value=">" id="Próximo" class="btn_navegar">
                 </form>
             </div>
             <div class="form3">
                 <p> Edição de produtos</p>
                 <form class="edit_produto">
-                    <label for="e_prod_nome">Nome do Produto</label>
-                    <label for="e_prod_codigo"> Código de Barras</label>
-                    <br>
+                    <label for="e_prod_id">id</label>
                     <input type="text" id="e_prod_id" name="e_prod_id">
+                    <br><br>
+                    <label for="e_prod_nome">Nome do Produto</label>
                     <input type="text" id="e_prod_nome" name="e_prod_name">
+                    <br><br>
+                    <label for="e_prod_codigo"> Código de Barras</label>
                     <input type="text" id="e_prod_codigo" name="e_prod_cod">
-                    <br>
+                    <br><br>
                     <label for="e_prod_preco_custo">Preço de Custo</label>
-                    <label for="e_prod_preco_promocional">Preço Promocional</label>
-                    <label for="e_prod_preco_venda">Preço Venda</label>
-                    <br>
                     <input type="text" id="e_prod_preco_custo" name="e_prod_p_c">
+                    <br><br>
+                    <label for="e_prod_preco_promocional">Preço Promocional</label>
                     <input type="text" id="e_prod_preco_promocional" name="e_prod_p_p">
+                    <br><br>
+                    <label for="e_prod_preco_venda">Preço Venda</label>
                     <input type="text" id="e_prod_preco_venda" name="e_prod_p_v">
-                    <br>
+                    <br><br>
                     <label for="e_prod_unidade">Unidade</label>
-                    <label for="e_prod_estoque">Estoque</label>
-                    <label for="e_prod_estoque_minimo">Estoque Mínimo</label>
-                    <br>
                     <input type="text" id="e_prod_unidade" name="e_prod_un">
+                    <br><br>
+                    <label for="e_prod_estoque">Estoque</label>
                     <input type="text" id="e_prod_estoque" name="e_prod_estq">
+                    <br><br>
+                    <label for="e_prod_estoque_minimo">Estoque Mínimo</label>
                     <input type="text" id="e_prod_estoque_minimo" name="e_prod_estq_min">
-                    <br>
+                    <br><br>
                     <input type="submit" value="Cancelar" id="cancelar_cadastro">
                     <input type="submit" value="Salvar" id="salvar_cadastro">
-                    
-                    <br>
                 </form>
             </div>
             

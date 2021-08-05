@@ -73,16 +73,42 @@
 /*Form 2 lista produtos*/
 .form2{
     grid-area: left;
-    background-color: brown;
+    position: relative;
+}
+table{
+    width: 100%;
+}
+table tr{
+    background-color: rgb(23, 26, 29);
+    color: aliceblue;
+}
+.registro_pagina{
+    margin-left: 10px;
+    bottom: 50px;
+    position: fixed;
+    
+}
+#n_registros_pagina{
+    width: 5%;
+}
+.btn_navegar{
+    padding: 10px;
+    width: 40px;
+    font-weight: bold;
+}
+.btn_navegar:hover{
+    background-color: darkslategrey;
+    color: floralwhite;
 }
 /*Form 3 cadastro produtos*/
 .form3{
     grid-area: right;
     border-left: 3px solid black;
     margin-top: -3px;
-    background-color: cornflowerblue;
+    font-weight: bold;
+
 }
-.form3 p{
+.form3 p, .cadastro_produtos p{
     text-align: center;
     font-size: 20px;
     font-weight: bold;
@@ -90,6 +116,9 @@
     background-color: #4682B4;
     color: azure;
     margin-top: 0px;
+}
+.cadastro_produtos p{
+    margin-top: -14px;
 }
 .produtos{
     display: grid;
@@ -103,12 +132,6 @@
     
 }
 
-.cadastro_produtos p{
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #4682B4;
-    color: azure;
-    margin-top: -14px;
+.edit_produto{
+    margin-left: 20px;
 }
