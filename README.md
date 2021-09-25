@@ -1,0 +1,3 @@
+Projeto criado para desenvolver habilidades com HTML, CSS e JavaScript.
+Realizando a automação de um sistema de gerenciamneto de oficina.
+Em desenvolvimento...
