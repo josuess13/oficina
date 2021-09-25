@@ -1,13 +1,5 @@
 .centro{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding: 50px;
-}
-.imagem_centro{
-    /*border: 1px solid black;   */
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 30px;
 }
 
 .os_andamento{
@@ -17,7 +9,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #4682B4;
     color: azure;
-    margin-top: -20px;
 }
 
 .status_cliente{
@@ -27,5 +18,4 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #4682B4;
     color: azure;
-    margin-top: -20px;
 }

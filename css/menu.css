@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(173, 47, 47);
+    background-color: #A52A2A;
     margin-top: -8px;
 }
 
@@ -8,6 +8,8 @@ nav li{
 }
 nav ul{
     display: inline; /*Alinhamento horizontal*/
+    
+    margin-right: 100px;
  }
 
 nav a button{
@@ -15,15 +17,17 @@ nav a button{
     color: white;
     padding: 15px 30px;
     font-size: 20px;
+    margin-top: 15px;
 }
 
 button{
-    background-color: rgb(173, 47, 47);
+    background-color: rgb(63, 42, 42);
     padding: 15px 30px;
 }
 
 button:hover{
-    background-color: rgb(68, 17, 17);
+    background-color: rgb(175, 166, 166);
+    color: black;
 }
 
 .btn_vendas:hover{
