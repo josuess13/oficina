@@ -1,0 +1,23 @@
+.servicos{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+#titulo{
+
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    margin-top: -3;
+}
+
+.services{
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+}
